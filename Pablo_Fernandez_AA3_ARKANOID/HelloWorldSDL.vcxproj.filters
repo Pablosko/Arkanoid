@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Brick">
+      <UniqueIdentifier>{31d93675-5f84-4d28-a8f3-0083b2427feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Scenes">
+      <UniqueIdentifier>{37316866-495a-4dd8-8502-7fa4db74314f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\PowerUps">
+      <UniqueIdentifier>{bc376102-2883-43f2-948a-414582b60dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Renderers">
+      <UniqueIdentifier>{8f7dca00-310b-4f5b-bd6f-1eaa574f7c4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\HelloWorldSDL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RenderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Animation2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EventKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Brick\Brick.cpp">
+      <Filter>Resource Files\Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SplashScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AudioManager.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Button.cpp">
+      <Filter>Resource Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PowerUpFactory.cpp">
+      <Filter>Resource Files\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PowerUp.cpp">
+      <Filter>Resource Files\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Speed.cpp">
+      <Filter>Resource Files\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MiniLenght.cpp">
+      <Filter>Resource Files\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ExtraLenght.cpp">
+      <Filter>Resource Files\PowerUps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Game.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\InputManager.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Vector2D.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CollisionsHelper.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Controller.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\KeyBoard.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EventKey.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Player.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Brick\Brick.h">
+      <Filter>Resource Files\Brick</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Ball.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\XML.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AudioManager.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Animation2D.h">
+      <Filter>Resource Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Button.h">
+      <Filter>Resource Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Image.h">
+      <Filter>Resource Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameScene.h">
+      <Filter>Resource Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MenuScene.h">
+      <Filter>Resource Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PowerUpFactory.h">
+      <Filter>Resource Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Text.h">
+      <Filter>Resource Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Renderer.h">
+      <Filter>Resource Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RenderManager.h">
+      <Filter>Resource Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SplashScreen.h">
+      <Filter>Resource Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene.h">
+      <Filter>Resource Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneManager.h">
+      <Filter>Resource Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PowerUp.h">
+      <Filter>Resource Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Speed.h">
+      <Filter>Resource Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MiniLenght.h">
+      <Filter>Resource Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ExtraLenght.h">
+      <Filter>Resource Files\PowerUps</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
